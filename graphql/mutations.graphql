@@ -1,0 +1,376 @@
+# this is an auto generated file. This will be overwritten
+
+mutation CreateGoal(
+  $input: CreateGoalInput!
+  $condition: ModelGoalConditionInput
+) {
+  createGoal(input: $input, condition: $condition) {
+    id
+    description
+    targetDate
+    reason
+    dailyLimit
+    reward
+    createdAt
+    updatedAt
+    __typename
+  }
+}
+
+mutation UpdateGoal(
+  $input: UpdateGoalInput!
+  $condition: ModelGoalConditionInput
+) {
+  updateGoal(input: $input, condition: $condition) {
+    id
+    description
+    targetDate
+    reason
+    dailyLimit
+    reward
+    createdAt
+    updatedAt
+    __typename
+  }
+}
+
+mutation DeleteGoal(
+  $input: DeleteGoalInput!
+  $condition: ModelGoalConditionInput
+) {
+  deleteGoal(input: $input, condition: $condition) {
+    id
+    description
+    targetDate
+    reason
+    dailyLimit
+    reward
+    createdAt
+    updatedAt
+    __typename
+  }
+}
+
+mutation CreateDrinkRecord(
+  $input: CreateDrinkRecordInput!
+  $condition: ModelDrinkRecordConditionInput
+) {
+  createDrinkRecord(input: $input, condition: $condition) {
+    id
+    details
+    amount
+    content
+    feeling
+    location
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+mutation UpdateDrinkRecord(
+  $input: UpdateDrinkRecordInput!
+  $condition: ModelDrinkRecordConditionInput
+) {
+  updateDrinkRecord(input: $input, condition: $condition) {
+    id
+    details
+    amount
+    content
+    feeling
+    location
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+mutation DeleteDrinkRecord(
+  $input: DeleteDrinkRecordInput!
+  $condition: ModelDrinkRecordConditionInput
+) {
+  deleteDrinkRecord(input: $input, condition: $condition) {
+    id
+    details
+    amount
+    content
+    feeling
+    location
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+mutation CreateDiaryEntry(
+  $input: CreateDiaryEntryInput!
+  $condition: ModelDiaryEntryConditionInput
+) {
+  createDiaryEntry(input: $input, condition: $condition) {
+    id
+    content
+    feeling
+    date
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+mutation UpdateDiaryEntry(
+  $input: UpdateDiaryEntryInput!
+  $condition: ModelDiaryEntryConditionInput
+) {
+  updateDiaryEntry(input: $input, condition: $condition) {
+    id
+    content
+    feeling
+    date
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+mutation DeleteDiaryEntry(
+  $input: DeleteDiaryEntryInput!
+  $condition: ModelDiaryEntryConditionInput
+) {
+  deleteDiaryEntry(input: $input, condition: $condition) {
+    id
+    content
+    feeling
+    date
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+mutation CreateCommunityMessage(
+  $input: CreateCommunityMessageInput!
+  $condition: ModelCommunityMessageConditionInput
+) {
+  createCommunityMessage(input: $input, condition: $condition) {
+    id
+    content
+    sender
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+mutation UpdateCommunityMessage(
+  $input: UpdateCommunityMessageInput!
+  $condition: ModelCommunityMessageConditionInput
+) {
+  updateCommunityMessage(input: $input, condition: $condition) {
+    id
+    content
+    sender
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+mutation DeleteCommunityMessage(
+  $input: DeleteCommunityMessageInput!
+  $condition: ModelCommunityMessageConditionInput
+) {
+  deleteCommunityMessage(input: $input, condition: $condition) {
+    id
+    content
+    sender
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+mutation CreateEmergencyContact(
+  $input: CreateEmergencyContactInput!
+  $condition: ModelEmergencyContactConditionInput
+) {
+  createEmergencyContact(input: $input, condition: $condition) {
+    id
+    name
+    phone
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+mutation UpdateEmergencyContact(
+  $input: UpdateEmergencyContactInput!
+  $condition: ModelEmergencyContactConditionInput
+) {
+  updateEmergencyContact(input: $input, condition: $condition) {
+    id
+    name
+    phone
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+mutation DeleteEmergencyContact(
+  $input: DeleteEmergencyContactInput!
+  $condition: ModelEmergencyContactConditionInput
+) {
+  deleteEmergencyContact(input: $input, condition: $condition) {
+    id
+    name
+    phone
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+mutation CreateAchievement(
+  $input: CreateAchievementInput!
+  $condition: ModelAchievementConditionInput
+) {
+  createAchievement(input: $input, condition: $condition) {
+    id
+    title
+    description
+    dateAchieved
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+mutation UpdateAchievement(
+  $input: UpdateAchievementInput!
+  $condition: ModelAchievementConditionInput
+) {
+  updateAchievement(input: $input, condition: $condition) {
+    id
+    title
+    description
+    dateAchieved
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+mutation DeleteAchievement(
+  $input: DeleteAchievementInput!
+  $condition: ModelAchievementConditionInput
+) {
+  deleteAchievement(input: $input, condition: $condition) {
+    id
+    title
+    description
+    dateAchieved
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+mutation CreateReminder(
+  $input: CreateReminderInput!
+  $condition: ModelReminderConditionInput
+) {
+  createReminder(input: $input, condition: $condition) {
+    id
+    message
+    time
+    isEnabled
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+mutation UpdateReminder(
+  $input: UpdateReminderInput!
+  $condition: ModelReminderConditionInput
+) {
+  updateReminder(input: $input, condition: $condition) {
+    id
+    message
+    time
+    isEnabled
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+mutation DeleteReminder(
+  $input: DeleteReminderInput!
+  $condition: ModelReminderConditionInput
+) {
+  deleteReminder(input: $input, condition: $condition) {
+    id
+    message
+    time
+    isEnabled
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}

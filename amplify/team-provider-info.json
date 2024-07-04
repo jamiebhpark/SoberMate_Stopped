@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-sobermate-dev-a16ef-authRole",
+      "UnauthRoleArn": "arn:aws:iam::150306281934:role/amplify-sobermate-dev-a16ef-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::150306281934:role/amplify-sobermate-dev-a16ef-authRole",
+      "Region": "ap-northeast-2",
+      "DeploymentBucketName": "amplify-sobermate-dev-a16ef-deployment",
+      "UnauthRoleName": "amplify-sobermate-dev-a16ef-unauthRole",
+      "StackName": "amplify-sobermate-dev-a16ef",
+      "StackId": "arn:aws:cloudformation:ap-northeast-2:150306281934:stack/amplify-sobermate-dev-a16ef/55560d40-39c8-11ef-983e-026241335f99",
+      "AmplifyAppId": "d1s3djci549lfp"
+    },
+    "categories": {
+      "api": {
+        "sobermate": {}
+      },
+      "auth": {
+        "sobermate954ac97e": {}
+      }
+    }
+  }
+}

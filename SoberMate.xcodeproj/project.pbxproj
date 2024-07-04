@@ -7,18 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		069F42DF50F7426CABC7F3D8 /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB538006805AFED88662219 /* Goal.swift */; };
+		0AA82F17FBC61E2D7E0E7E5C /* Goal+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77CCD2F2D459293CAF07B2C /* Goal+Schema.swift */; };
+		229727273EE479817F9E94F6 /* DiaryEntry+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66FBEEBF589CC775D10E923 /* DiaryEntry+Schema.swift */; };
+		3357D368EFF36DE79DC999C6 /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A0D04AC30D88C253A940B /* AmplifyModels.swift */; };
+		3AD3CB47FEB82D7BF2D60FF9 /* DrinkRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033AF29180231E7453681983 /* DrinkRecord.swift */; };
+		3B2A73B8F2C80601324225E4 /* CommunityMessage+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5EFAEC71EB398FD6FA167E /* CommunityMessage+Schema.swift */; };
+		41A1CC6C58B3844DAC399123 /* Reminder+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F0F93875C5845D7474DAA7 /* Reminder+Schema.swift */; };
+		5922F3924B9B939336C41E50 /* CommunityMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52E232B280165E5882C67C3 /* CommunityMessage.swift */; };
+		7B86254F8A95675FF259E52D /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A3C3DA5FE4F9E1F1FE58A8 /* Achievement.swift */; };
+		7D1FD5262C36719200DB5B33 /* AWSAPIPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 7D1FD5252C36719200DB5B33 /* AWSAPIPlugin */; };
+		7D1FD5282C36719200DB5B33 /* AWSCognitoAuthPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 7D1FD5272C36719200DB5B33 /* AWSCognitoAuthPlugin */; };
+		7D1FD52A2C36719200DB5B33 /* AWSDataStorePlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 7D1FD5292C36719200DB5B33 /* AWSDataStorePlugin */; };
+		7D1FD52C2C36719200DB5B33 /* AWSPluginsCore in Frameworks */ = {isa = PBXBuildFile; productRef = 7D1FD52B2C36719200DB5B33 /* AWSPluginsCore */; };
+		7D1FD52E2C36719200DB5B33 /* Amplify in Frameworks */ = {isa = PBXBuildFile; productRef = 7D1FD52D2C36719200DB5B33 /* Amplify */; };
 		7D3F572C2C366D9400B62325 /* SoberMateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3F572B2C366D9400B62325 /* SoberMateApp.swift */; };
 		7D3F572E2C366D9400B62325 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3F572D2C366D9400B62325 /* ContentView.swift */; };
 		7D3F57302C366D9500B62325 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D3F572F2C366D9500B62325 /* Assets.xcassets */; };
 		7D3F57332C366D9500B62325 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D3F57322C366D9500B62325 /* Preview Assets.xcassets */; };
+		7D848FEA2C36868500B86AB9 /* GoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D848FE92C36868500B86AB9 /* GoalView.swift */; };
+		7D848FEC2C36869200B86AB9 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D848FEB2C36869200B86AB9 /* RecordView.swift */; };
+		7D848FEE2C36869D00B86AB9 /* DiaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D848FED2C36869D00B86AB9 /* DiaryView.swift */; };
+		7D848FF02C3686AE00B86AB9 /* CommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D848FEF2C3686AE00B86AB9 /* CommunityView.swift */; };
+		7D848FF22C36870F00B86AB9 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D848FF12C36870F00B86AB9 /* StatsView.swift */; };
+		7D848FF42C36871C00B86AB9 /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D848FF32C36871C00B86AB9 /* AchievementsView.swift */; };
+		7D848FF62C36872A00B86AB9 /* ReminderSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D848FF52C36872A00B86AB9 /* ReminderSettingsView.swift */; };
+		7D848FF82C36873600B86AB9 /* UserSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D848FF72C36873600B86AB9 /* UserSettingsView.swift */; };
+		7D848FFA2C36877500B86AB9 /* EmergencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D848FF92C36877500B86AB9 /* EmergencyView.swift */; };
+		8B16795152057B3D73D2F894 /* EmergencyContact+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8986D16EF23069748CE90B21 /* EmergencyContact+Schema.swift */; };
+		B96ADCB80B6B5C855AE9D608 /* DrinkRecord+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3774ECECADDA9216F96CA4D3 /* DrinkRecord+Schema.swift */; };
+		DDDBEEDC6A57D85F838A2A39 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = FE0A8C637E0CBCDBF623CAFC /* awsconfiguration.json */; };
+		E1313AEED4CE875C4C15BD5C /* DiaryEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6307C56D0450F9EE31C3F7A /* DiaryEntry.swift */; };
+		E68F4AF4E1DB4E0C3FE2F29B /* EmergencyContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D0B203DD9591E1D248DAF /* EmergencyContact.swift */; };
+		E7A861BB580C3DE8FD324032 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 1ABC1F56510EF25D32C7469F /* amplifyconfiguration.json */; };
+		EE2B0595C4673C2B5D1B2017 /* Achievement+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3BA7B5198298D53DF7ACA0 /* Achievement+Schema.swift */; };
+		FED05D9BF6DA3D8FBE1EDAA4 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C41EBA5EBD3A9E7BA3E8A1 /* Reminder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		033AF29180231E7453681983 /* DrinkRecord.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = DrinkRecord.swift; path = amplify/generated/models/DrinkRecord.swift; sourceTree = "<group>"; };
+		0FB538006805AFED88662219 /* Goal.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Goal.swift; path = amplify/generated/models/Goal.swift; sourceTree = "<group>"; };
+		16A3C3DA5FE4F9E1F1FE58A8 /* Achievement.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Achievement.swift; path = amplify/generated/models/Achievement.swift; sourceTree = "<group>"; };
+		1ABC1F56510EF25D32C7469F /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		1D1A0D04AC30D88C253A940B /* AmplifyModels.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = AmplifyModels.swift; path = amplify/generated/models/AmplifyModels.swift; sourceTree = "<group>"; };
+		23F0F93875C5845D7474DAA7 /* Reminder+Schema.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "Reminder+Schema.swift"; path = "amplify/generated/models/Reminder+Schema.swift"; sourceTree = "<group>"; };
+		3774ECECADDA9216F96CA4D3 /* DrinkRecord+Schema.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "DrinkRecord+Schema.swift"; path = "amplify/generated/models/DrinkRecord+Schema.swift"; sourceTree = "<group>"; };
+		6F4D0B203DD9591E1D248DAF /* EmergencyContact.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = EmergencyContact.swift; path = amplify/generated/models/EmergencyContact.swift; sourceTree = "<group>"; };
+		74C41EBA5EBD3A9E7BA3E8A1 /* Reminder.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Reminder.swift; path = amplify/generated/models/Reminder.swift; sourceTree = "<group>"; };
 		7D3F57282C366D9400B62325 /* SoberMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoberMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D3F572B2C366D9400B62325 /* SoberMateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoberMateApp.swift; sourceTree = "<group>"; };
 		7D3F572D2C366D9400B62325 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7D3F572F2C366D9500B62325 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D3F57322C366D9500B62325 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7D848FE92C36868500B86AB9 /* GoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalView.swift; sourceTree = "<group>"; };
+		7D848FEB2C36869200B86AB9 /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
+		7D848FED2C36869D00B86AB9 /* DiaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryView.swift; sourceTree = "<group>"; };
+		7D848FEF2C3686AE00B86AB9 /* CommunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityView.swift; sourceTree = "<group>"; };
+		7D848FF12C36870F00B86AB9 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		7D848FF32C36871C00B86AB9 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		7D848FF52C36872A00B86AB9 /* ReminderSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderSettingsView.swift; sourceTree = "<group>"; };
+		7D848FF72C36873600B86AB9 /* UserSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettingsView.swift; sourceTree = "<group>"; };
+		7D848FF92C36877500B86AB9 /* EmergencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyView.swift; sourceTree = "<group>"; };
+		8986D16EF23069748CE90B21 /* EmergencyContact+Schema.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "EmergencyContact+Schema.swift"; path = "amplify/generated/models/EmergencyContact+Schema.swift"; sourceTree = "<group>"; };
+		A77CCD2F2D459293CAF07B2C /* Goal+Schema.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "Goal+Schema.swift"; path = "amplify/generated/models/Goal+Schema.swift"; sourceTree = "<group>"; };
+		B6307C56D0450F9EE31C3F7A /* DiaryEntry.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = DiaryEntry.swift; path = amplify/generated/models/DiaryEntry.swift; sourceTree = "<group>"; };
+		C52E232B280165E5882C67C3 /* CommunityMessage.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = CommunityMessage.swift; path = amplify/generated/models/CommunityMessage.swift; sourceTree = "<group>"; };
+		DD5EFAEC71EB398FD6FA167E /* CommunityMessage+Schema.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "CommunityMessage+Schema.swift"; path = "amplify/generated/models/CommunityMessage+Schema.swift"; sourceTree = "<group>"; };
+		E66FBEEBF589CC775D10E923 /* DiaryEntry+Schema.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "DiaryEntry+Schema.swift"; path = "amplify/generated/models/DiaryEntry+Schema.swift"; sourceTree = "<group>"; };
+		EE3BA7B5198298D53DF7ACA0 /* Achievement+Schema.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "Achievement+Schema.swift"; path = "amplify/generated/models/Achievement+Schema.swift"; sourceTree = "<group>"; };
+		FE0A8C637E0CBCDBF623CAFC /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +83,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D1FD52C2C36719200DB5B33 /* AWSPluginsCore in Frameworks */,
+				7D1FD52E2C36719200DB5B33 /* Amplify in Frameworks */,
+				7D1FD52A2C36719200DB5B33 /* AWSDataStorePlugin in Frameworks */,
+				7D1FD5262C36719200DB5B33 /* AWSAPIPlugin in Frameworks */,
+				7D1FD5282C36719200DB5B33 /* AWSCognitoAuthPlugin in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +99,8 @@
 			children = (
 				7D3F572A2C366D9400B62325 /* SoberMate */,
 				7D3F57292C366D9400B62325 /* Products */,
+				E3AE3FE26A130F1204276428 /* AmplifyConfig */,
+				8506852166577F3201906B3F /* AmplifyModels */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,6 +119,15 @@
 				7D3F572D2C366D9400B62325 /* ContentView.swift */,
 				7D3F572F2C366D9500B62325 /* Assets.xcassets */,
 				7D3F57312C366D9500B62325 /* Preview Content */,
+				7D848FE92C36868500B86AB9 /* GoalView.swift */,
+				7D848FEB2C36869200B86AB9 /* RecordView.swift */,
+				7D848FED2C36869D00B86AB9 /* DiaryView.swift */,
+				7D848FEF2C3686AE00B86AB9 /* CommunityView.swift */,
+				7D848FF12C36870F00B86AB9 /* StatsView.swift */,
+				7D848FF32C36871C00B86AB9 /* AchievementsView.swift */,
+				7D848FF92C36877500B86AB9 /* EmergencyView.swift */,
+				7D848FF52C36872A00B86AB9 /* ReminderSettingsView.swift */,
+				7D848FF72C36873600B86AB9 /* UserSettingsView.swift */,
 			);
 			path = SoberMate;
 			sourceTree = "<group>";
@@ -65,6 +138,37 @@
 				7D3F57322C366D9500B62325 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8506852166577F3201906B3F /* AmplifyModels */ = {
+			isa = PBXGroup;
+			children = (
+				EE3BA7B5198298D53DF7ACA0 /* Achievement+Schema.swift */,
+				16A3C3DA5FE4F9E1F1FE58A8 /* Achievement.swift */,
+				1D1A0D04AC30D88C253A940B /* AmplifyModels.swift */,
+				DD5EFAEC71EB398FD6FA167E /* CommunityMessage+Schema.swift */,
+				C52E232B280165E5882C67C3 /* CommunityMessage.swift */,
+				E66FBEEBF589CC775D10E923 /* DiaryEntry+Schema.swift */,
+				B6307C56D0450F9EE31C3F7A /* DiaryEntry.swift */,
+				3774ECECADDA9216F96CA4D3 /* DrinkRecord+Schema.swift */,
+				033AF29180231E7453681983 /* DrinkRecord.swift */,
+				8986D16EF23069748CE90B21 /* EmergencyContact+Schema.swift */,
+				6F4D0B203DD9591E1D248DAF /* EmergencyContact.swift */,
+				A77CCD2F2D459293CAF07B2C /* Goal+Schema.swift */,
+				0FB538006805AFED88662219 /* Goal.swift */,
+				23F0F93875C5845D7474DAA7 /* Reminder+Schema.swift */,
+				74C41EBA5EBD3A9E7BA3E8A1 /* Reminder.swift */,
+			);
+			name = AmplifyModels;
+			sourceTree = "<group>";
+		};
+		E3AE3FE26A130F1204276428 /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				FE0A8C637E0CBCDBF623CAFC /* awsconfiguration.json */,
+				1ABC1F56510EF25D32C7469F /* amplifyconfiguration.json */,
+			);
+			name = AmplifyConfig;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +187,13 @@
 			dependencies = (
 			);
 			name = SoberMate;
+			packageProductDependencies = (
+				7D1FD5252C36719200DB5B33 /* AWSAPIPlugin */,
+				7D1FD5272C36719200DB5B33 /* AWSCognitoAuthPlugin */,
+				7D1FD5292C36719200DB5B33 /* AWSDataStorePlugin */,
+				7D1FD52B2C36719200DB5B33 /* AWSPluginsCore */,
+				7D1FD52D2C36719200DB5B33 /* Amplify */,
+			);
 			productName = SoberMate;
 			productReference = 7D3F57282C366D9400B62325 /* SoberMate.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +222,9 @@
 				Base,
 			);
 			mainGroup = 7D3F571F2C366D9400B62325;
+			packageReferences = (
+				7D1FD5242C36719200DB5B33 /* XCRemoteSwiftPackageReference "amplify-ios" */,
+			);
 			productRefGroup = 7D3F57292C366D9400B62325 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +241,8 @@
 			files = (
 				7D3F57332C366D9500B62325 /* Preview Assets.xcassets in Resources */,
 				7D3F57302C366D9500B62325 /* Assets.xcassets in Resources */,
+				DDDBEEDC6A57D85F838A2A39 /* awsconfiguration.json in Resources */,
+				E7A861BB580C3DE8FD324032 /* amplifyconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +255,30 @@
 			files = (
 				7D3F572E2C366D9400B62325 /* ContentView.swift in Sources */,
 				7D3F572C2C366D9400B62325 /* SoberMateApp.swift in Sources */,
+				EE2B0595C4673C2B5D1B2017 /* Achievement+Schema.swift in Sources */,
+				7B86254F8A95675FF259E52D /* Achievement.swift in Sources */,
+				3357D368EFF36DE79DC999C6 /* AmplifyModels.swift in Sources */,
+				3B2A73B8F2C80601324225E4 /* CommunityMessage+Schema.swift in Sources */,
+				5922F3924B9B939336C41E50 /* CommunityMessage.swift in Sources */,
+				229727273EE479817F9E94F6 /* DiaryEntry+Schema.swift in Sources */,
+				7D848FEA2C36868500B86AB9 /* GoalView.swift in Sources */,
+				E1313AEED4CE875C4C15BD5C /* DiaryEntry.swift in Sources */,
+				B96ADCB80B6B5C855AE9D608 /* DrinkRecord+Schema.swift in Sources */,
+				3AD3CB47FEB82D7BF2D60FF9 /* DrinkRecord.swift in Sources */,
+				8B16795152057B3D73D2F894 /* EmergencyContact+Schema.swift in Sources */,
+				7D848FEC2C36869200B86AB9 /* RecordView.swift in Sources */,
+				7D848FFA2C36877500B86AB9 /* EmergencyView.swift in Sources */,
+				E68F4AF4E1DB4E0C3FE2F29B /* EmergencyContact.swift in Sources */,
+				0AA82F17FBC61E2D7E0E7E5C /* Goal+Schema.swift in Sources */,
+				7D848FF42C36871C00B86AB9 /* AchievementsView.swift in Sources */,
+				7D848FF62C36872A00B86AB9 /* ReminderSettingsView.swift in Sources */,
+				7D848FF02C3686AE00B86AB9 /* CommunityView.swift in Sources */,
+				069F42DF50F7426CABC7F3D8 /* Goal.swift in Sources */,
+				7D848FEE2C36869D00B86AB9 /* DiaryView.swift in Sources */,
+				7D848FF22C36870F00B86AB9 /* StatsView.swift in Sources */,
+				41A1CC6C58B3844DAC399123 /* Reminder+Schema.swift in Sources */,
+				7D848FF82C36873600B86AB9 /* UserSettingsView.swift in Sources */,
+				FED05D9BF6DA3D8FBE1EDAA4 /* Reminder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +415,13 @@
 				DEVELOPMENT_TEAM = 54THW6C299;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +446,13 @@
 				DEVELOPMENT_TEAM = 54THW6C299;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -344,6 +488,45 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7D1FD5242C36719200DB5B33 /* XCRemoteSwiftPackageReference "amplify-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aws-amplify/amplify-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.35.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7D1FD5252C36719200DB5B33 /* AWSAPIPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D1FD5242C36719200DB5B33 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSAPIPlugin;
+		};
+		7D1FD5272C36719200DB5B33 /* AWSCognitoAuthPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D1FD5242C36719200DB5B33 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSCognitoAuthPlugin;
+		};
+		7D1FD5292C36719200DB5B33 /* AWSDataStorePlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D1FD5242C36719200DB5B33 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSDataStorePlugin;
+		};
+		7D1FD52B2C36719200DB5B33 /* AWSPluginsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D1FD5242C36719200DB5B33 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSPluginsCore;
+		};
+		7D1FD52D2C36719200DB5B33 /* Amplify */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D1FD5242C36719200DB5B33 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = Amplify;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7D3F57202C366D9400B62325 /* Project object */;
 }

@@ -1,0 +1,343 @@
+# this is an auto generated file. This will be overwritten
+
+subscription OnCreateGoal($filter: ModelSubscriptionGoalFilterInput) {
+  onCreateGoal(filter: $filter) {
+    id
+    description
+    targetDate
+    reason
+    dailyLimit
+    reward
+    createdAt
+    updatedAt
+    __typename
+  }
+}
+
+subscription OnUpdateGoal($filter: ModelSubscriptionGoalFilterInput) {
+  onUpdateGoal(filter: $filter) {
+    id
+    description
+    targetDate
+    reason
+    dailyLimit
+    reward
+    createdAt
+    updatedAt
+    __typename
+  }
+}
+
+subscription OnDeleteGoal($filter: ModelSubscriptionGoalFilterInput) {
+  onDeleteGoal(filter: $filter) {
+    id
+    description
+    targetDate
+    reason
+    dailyLimit
+    reward
+    createdAt
+    updatedAt
+    __typename
+  }
+}
+
+subscription OnCreateDrinkRecord(
+  $filter: ModelSubscriptionDrinkRecordFilterInput
+) {
+  onCreateDrinkRecord(filter: $filter) {
+    id
+    details
+    amount
+    content
+    feeling
+    location
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+subscription OnUpdateDrinkRecord(
+  $filter: ModelSubscriptionDrinkRecordFilterInput
+) {
+  onUpdateDrinkRecord(filter: $filter) {
+    id
+    details
+    amount
+    content
+    feeling
+    location
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+subscription OnDeleteDrinkRecord(
+  $filter: ModelSubscriptionDrinkRecordFilterInput
+) {
+  onDeleteDrinkRecord(filter: $filter) {
+    id
+    details
+    amount
+    content
+    feeling
+    location
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+subscription OnCreateDiaryEntry(
+  $filter: ModelSubscriptionDiaryEntryFilterInput
+) {
+  onCreateDiaryEntry(filter: $filter) {
+    id
+    content
+    feeling
+    date
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+subscription OnUpdateDiaryEntry(
+  $filter: ModelSubscriptionDiaryEntryFilterInput
+) {
+  onUpdateDiaryEntry(filter: $filter) {
+    id
+    content
+    feeling
+    date
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+subscription OnDeleteDiaryEntry(
+  $filter: ModelSubscriptionDiaryEntryFilterInput
+) {
+  onDeleteDiaryEntry(filter: $filter) {
+    id
+    content
+    feeling
+    date
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+subscription OnCreateCommunityMessage(
+  $filter: ModelSubscriptionCommunityMessageFilterInput
+) {
+  onCreateCommunityMessage(filter: $filter) {
+    id
+    content
+    sender
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+subscription OnUpdateCommunityMessage(
+  $filter: ModelSubscriptionCommunityMessageFilterInput
+) {
+  onUpdateCommunityMessage(filter: $filter) {
+    id
+    content
+    sender
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+subscription OnDeleteCommunityMessage(
+  $filter: ModelSubscriptionCommunityMessageFilterInput
+) {
+  onDeleteCommunityMessage(filter: $filter) {
+    id
+    content
+    sender
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+subscription OnCreateEmergencyContact(
+  $filter: ModelSubscriptionEmergencyContactFilterInput
+) {
+  onCreateEmergencyContact(filter: $filter) {
+    id
+    name
+    phone
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+subscription OnUpdateEmergencyContact(
+  $filter: ModelSubscriptionEmergencyContactFilterInput
+) {
+  onUpdateEmergencyContact(filter: $filter) {
+    id
+    name
+    phone
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+subscription OnDeleteEmergencyContact(
+  $filter: ModelSubscriptionEmergencyContactFilterInput
+) {
+  onDeleteEmergencyContact(filter: $filter) {
+    id
+    name
+    phone
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+subscription OnCreateAchievement(
+  $filter: ModelSubscriptionAchievementFilterInput
+) {
+  onCreateAchievement(filter: $filter) {
+    id
+    title
+    description
+    dateAchieved
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+subscription OnUpdateAchievement(
+  $filter: ModelSubscriptionAchievementFilterInput
+) {
+  onUpdateAchievement(filter: $filter) {
+    id
+    title
+    description
+    dateAchieved
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+subscription OnDeleteAchievement(
+  $filter: ModelSubscriptionAchievementFilterInput
+) {
+  onDeleteAchievement(filter: $filter) {
+    id
+    title
+    description
+    dateAchieved
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+subscription OnCreateReminder($filter: ModelSubscriptionReminderFilterInput) {
+  onCreateReminder(filter: $filter) {
+    id
+    message
+    time
+    isEnabled
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+subscription OnUpdateReminder($filter: ModelSubscriptionReminderFilterInput) {
+  onUpdateReminder(filter: $filter) {
+    id
+    message
+    time
+    isEnabled
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+subscription OnDeleteReminder($filter: ModelSubscriptionReminderFilterInput) {
+  onDeleteReminder(filter: $filter) {
+    id
+    message
+    time
+    isEnabled
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}

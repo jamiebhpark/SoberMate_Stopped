@@ -1,0 +1,265 @@
+# this is an auto generated file. This will be overwritten
+
+query GetGoal($id: ID!) {
+  getGoal(id: $id) {
+    id
+    description
+    targetDate
+    reason
+    dailyLimit
+    reward
+    createdAt
+    updatedAt
+    __typename
+  }
+}
+
+query ListGoals(
+  $filter: ModelGoalFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listGoals(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      description
+      targetDate
+      reason
+      dailyLimit
+      reward
+      createdAt
+      updatedAt
+      __typename
+    }
+    nextToken
+    __typename
+  }
+}
+
+query GetDrinkRecord($id: ID!) {
+  getDrinkRecord(id: $id) {
+    id
+    details
+    amount
+    content
+    feeling
+    location
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+query ListDrinkRecords(
+  $filter: ModelDrinkRecordFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listDrinkRecords(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      details
+      amount
+      content
+      feeling
+      location
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    nextToken
+    __typename
+  }
+}
+
+query GetDiaryEntry($id: ID!) {
+  getDiaryEntry(id: $id) {
+    id
+    content
+    feeling
+    date
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+query ListDiaryEntries(
+  $filter: ModelDiaryEntryFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listDiaryEntries(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      content
+      feeling
+      date
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    nextToken
+    __typename
+  }
+}
+
+query GetCommunityMessage($id: ID!) {
+  getCommunityMessage(id: $id) {
+    id
+    content
+    sender
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+query ListCommunityMessages(
+  $filter: ModelCommunityMessageFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listCommunityMessages(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      content
+      sender
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    nextToken
+    __typename
+  }
+}
+
+query GetEmergencyContact($id: ID!) {
+  getEmergencyContact(id: $id) {
+    id
+    name
+    phone
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+query ListEmergencyContacts(
+  $filter: ModelEmergencyContactFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listEmergencyContacts(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      name
+      phone
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    nextToken
+    __typename
+  }
+}
+
+query GetAchievement($id: ID!) {
+  getAchievement(id: $id) {
+    id
+    title
+    description
+    dateAchieved
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+query ListAchievements(
+  $filter: ModelAchievementFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listAchievements(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      title
+      description
+      dateAchieved
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    nextToken
+    __typename
+  }
+}
+
+query GetReminder($id: ID!) {
+  getReminder(id: $id) {
+    id
+    message
+    time
+    isEnabled
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+query ListReminders(
+  $filter: ModelReminderFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listReminders(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      message
+      time
+      isEnabled
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    nextToken
+    __typename
+  }
+}
